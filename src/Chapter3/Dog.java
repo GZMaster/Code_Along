@@ -2,6 +2,7 @@ package Chapter3;
 
 public class Dog {
     String name;
+
     public static void main(String[] args){
         // make a Dog object and access it
         Dog dog1 = new Dog();
