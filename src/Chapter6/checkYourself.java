@@ -4,9 +4,10 @@ public class checkYourself {
     public String check(String stringGuess) {
     int guess = Integer.parseInt(stringGuess);
     String result = "miss";
+    int numOfHits = 0;
 
 
-        int[] locationCells;
+        int[] locationCells = new int[0];
         for (int cell : locationCells) {
         if (guess == cell) {
             

@@ -19,12 +19,12 @@ public class Example2 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Input the dividend: 625 ");
+        System.out.print("Input the dividend:  ");
 
         int dividend = in.nextInt();
-        System.out.print("Input the divider: 25 ");
+        System.out.print("Input the divider:  ");
 
         int divider = in.nextInt();
-        System.out.println("\nResult: 25.0 " + divide_using_subtraction(dividend,divider));
+        System.out.println("\nResult: " + divide_using_subtraction(dividend,divider));
     }
 }
