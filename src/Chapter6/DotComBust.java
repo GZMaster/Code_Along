@@ -40,7 +40,7 @@ public class DotComBust {
 
     private void checkUserGuess(String userGuess) {
 
-        numOfGuesses+++;
+        numOfGuesses++;
         String result = "miss";
 
         for (DotCom dotComToTest : dotComsList) {

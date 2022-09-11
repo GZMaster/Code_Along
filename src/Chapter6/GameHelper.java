@@ -70,7 +70,7 @@ public class GameHelper {
             temp = String.valueOf(alphabet.charAt(column)); // convert to alpha
 
             alphaCells.add(temp.concat(Integer.toString(row)));
-            x++ +;
+            x++;
             // System.out.print(" coord "+x+" = " + alphaCells.get(x-1));
         }
 
